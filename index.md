@@ -6,7 +6,7 @@ Intro...
 
 Browser Chrome (obviously).
 
-I quickly realized that Some Chrome plugins have an impact on the Lighthouse score.
+I quickly realized that some Chrome plugins have an impact on the Lighthouse score.
 
 **Rule 1: Use a Chrome incognito window.**
 
@@ -56,9 +56,9 @@ The size of the images is then divided by more than 2 which is a lot of octets l
 
 ## Iteration #4: use larger images
 
-Since my images were pretty small, I decided to run similar tests with larger images. That's when I realized that the Chrome embed Lighthouse score is not reliable: the second time I run it, it gives a much better score (100 in these cases). This gives the feeling images get cached and second run is than much faster. I'll run the same tests with the online tools to see if they are more reliable.
+Since my images were pretty small, I decided to run similar tests with larger images. That's when I realized that the Chrome embed Lighthouse score is not reliable: the second time I run it, it gives a much better score (100 in these cases). This gives the feeling images get cached and second run is then much faster. I'll run the same tests with the online tools to see if they are more reliable.
 
-Once the first run, I get for a test with larger JPG images: score 73 with a scary 11.9s for the LCP.
+With the first run, I get for a test with larger JPG images: score 73 with a scary 11.9s for the LCP.
 
 ![Score for Simple page with paragraphs and large jpegs](./with_large_jpg/73.png)
 [Live example](https://main--webvitals--kptdobe.hlx.live/with_large_jpg/)
