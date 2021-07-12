@@ -1,2 +1,2 @@
 mountpoints:
-  /: https://github.com/kptdobe/webvitals/tree/main
+  /: https://github.com/kptdobe/webvitals.git#main
