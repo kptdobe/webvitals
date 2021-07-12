@@ -65,7 +65,7 @@ Once the first run, I get for a test with larger JPG images: score 73 with a sca
 
 For the same test with larger Webp images: score 77 with a similarily scary 6.2 for the LCP.
 
-![Score for Simple page with paragraphs and large webps](./with_large_jpg/77.png)
+![Score for Simple page with paragraphs and large webps](./with_large_webp/77.png)
 [Live example](https://main--webvitals--kptdobe.hlx.live/with_large_webp/)
 
 Those long LCP times are really strange, especially that in my test page, the first image (even in its large version) is not really big. I have one suspicion: on mobile, the second image appears above the fold and since it is defined to `lazy` load, it must be the LCP and degrade the score.
@@ -75,7 +75,7 @@ I have tried multiple solutions, like switch from the loading from `lazy` to `ea
 
 Final test: I swapped the 2 first images and score jumps to 95!
 
-![Score for Simple page with paragraphs and large webps 2](./with_large_jpg2/95.png)
+![Score for Simple page with paragraphs and large webps 2](./with_large_webp2/95.png)
 [Live example](https://main--webvitals--kptdobe.hlx.live/with_large_webp2/)
 
 This is insaine and I start doubting about the tool. It is time to go on-line and use [web.dev](https://web.dev/measure/) and [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/).
