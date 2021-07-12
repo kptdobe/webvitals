@@ -79,4 +79,3 @@ Final test: I swapped the 2 first images and score jumps to 95!
 [Live example](https://main--webvitals--kptdobe.hlx.live/with_large_webp2/)
 
 This is insaine and I start doubting about the tool. It is time to go on-line and use [web.dev](https://web.dev/measure/) and [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/).
-
