@@ -68,8 +68,8 @@ For the same test with larger Webp images: score 77 with a similarily scary 6.2 
 ![Score for Simple page with paragraphs and large webps](./with_large_webp/77.png)
 [Live example](https://main--webvitals--kptdobe.hlx.live/with_large_webp/)
 
-Those long LCP times are really strange, especially that in my test page, the first image (even in its large version) is not really big. I have one suspicion: on mobile, the second image appears above the fold and since it is defined to `lazy` load, it must be the LCP and degrade the score.
-I have tried multiple solutions, like switch from the loading from `lazy` to `eager`, output the LCP in the console, but it will not do it, the LCP loading stays bad and the tool keeps telling me my smaller image is the LCP.
+Those long LCP times are really strange, especially that in my test page, the first image (even in its large version) is not really big. I have one suspicion: on mobile, the second image appears above the fold, it might be the LCP and since it is defined to `lazy` load, it degrades the score.
+I have tried multiple solutions, like switch from the loading from `lazy` to `eager`, output the LCP in the console, but it will not do it, the LCP loading time stays bad and the tool keeps telling me my smaller image is the LCP.
 
 [Live example](https://main--webvitals--kptdobe.hlx.live/with_large_webp/index_debug_LCP.html)
 
